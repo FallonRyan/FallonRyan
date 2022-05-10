@@ -45,9 +45,50 @@
   background-image: url(background-image.png);
   background-repeat: no-repeat;
   }
+  .dropdown-menu{
+    margin-top: 0;
+  }    
   </style>
+  
+  
 </head>
 <body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md fixed-top bg-dark navbar-dark" >
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbar2SupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#speakers">Speakers</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#schedule">Schedule</a>
+          </li>
+        </ul>
+        <a class="btn navbar-btn mx-2 text-white btn-outline-light" href="#register">Register now</a>
+      </div>
+    </div>
+  </nav>
+  <!-- Cover -->
+  <div class="d-flex align-items-center py-5 photo-overlay cover" style="background-image: url(&quot;assets/conference/cover.jpg&quot;);">
+    <div class="container">
+      <div class="row">
+        <div class="text-white p-5 bg-dark-opaque col-12 col-lg-8 mx-auto">
+          <h1 class="display-3">Conference Pingendo</h1>
+          <p class="">December 12-14, NYC </p>
+          <a href="#register" class="btn btn-lg mt-4 btn-primary">Register now</a>
+        </div>
+      </div>
+    </div>
+  </div>  
+  
+  
+  
 <!-- ## My NavBar with Dropdown Example -->
 <div class="QuickLinkContainer">>
 <nav class="navbar navbar-inverse">
@@ -70,11 +111,7 @@
   </div>
 </nav>  
 </div>  
-  
-<div class="container">
-  <h3>Navbar With Dropdown</h3>
-  <p>This example adds a dropdown menu for the "Page 1" button in the navigation bar.</p>
-</div>    
+    
 <!-- ## My Container & Jumbotron Example -->
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
